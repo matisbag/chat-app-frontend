@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -12,7 +13,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className="flex flex-col h-screen">{children}</body>
+      <body className="flex flex-col h-screen">
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
