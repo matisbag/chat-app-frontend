@@ -2,7 +2,7 @@
 
 Project utilizing React to create a dynamic chat experience.
 
-[Preview coming soon] 
+[Preview coming soon]
 
 ## Getting Started
 
@@ -16,6 +16,6 @@ $ npm run dev
 
 ## Technologies Used
 
-- [ReNextact](https://nextjs.org/)
+- [Next](https://nextjs.org/)
 - [Headless UI](https://headlessui.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
