@@ -6,4 +6,8 @@
   main {
     @apply grow;
   }
+
+  input {
+    @apply outline-none;
+  }
 }

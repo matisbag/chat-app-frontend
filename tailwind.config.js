@@ -6,6 +6,8 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     colors: {
+      primary: '#1ebea5',
+      secondary: '#273443',
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
